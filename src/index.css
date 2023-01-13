@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Saira&display=swap');
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --font-saira: 'Saira', sans-serif;
+
+  --nav-gradient: linear-gradient(180deg, #060A32 0%, #1A5D9E 80%);
+  --primary-color: #edf2f8;
+  --secondary-color: #FFE159;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
