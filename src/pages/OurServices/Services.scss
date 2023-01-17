@@ -1,0 +1,42 @@
+.app__service {
+    background: var(--services-color);
+	padding: 3rem 0.1rem 7rem;
+}
+
+.app__service-title {
+    text-align: center;
+    
+    p {
+      color: var(--secondary-color);
+			text-transform: uppercase;
+			letter-spacing: 0.04em;
+			line-height: 25px;
+			font-weight: 500;
+			font-size: 18px;
+			margin-bottom: 18px;
+    }
+		h3 {
+			color: var(--white-color);
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 60px;
+			letter-spacing: 0.05em;
+
+			width: 572px;
+			height: 120px;
+			margin: auto;
+
+			text-transform: uppercase;
+		}
+}
+
+.app__service-card {
+	display: flex;
+	justify-content: space-evenly;
+
+	flex-wrap: wrap;
+	gap: 108px;
+	column-gap: normal;
+	
+	margin-top: 7rem;
+}

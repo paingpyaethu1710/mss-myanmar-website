@@ -1,0 +1,22 @@
+.app__missioncard {
+    background: var(--mission-card-color);
+    width: 592.51px;
+    height: 592.51px;
+    padding: 4.15rem;
+    border-radius: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    .mission-title {
+        color: #1A5D9E;
+        font-size: 31px;
+        letter-spacing: 0.04em;
+        line-height: 50px;
+        margin: 1rem 0 0.3rem;
+    }
+    .mission-content {
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        line-height: 37px;
+        font-weight: 500;
+    }
+}

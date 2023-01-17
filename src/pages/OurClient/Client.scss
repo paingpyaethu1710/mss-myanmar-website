@@ -1,0 +1,31 @@
+.app__client {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin: 0 2rem 0 10rem;
+    }
+    p {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.04em;
+    }
+}
+
+.app__client-title {
+    background: #F1F8FF;
+
+    width: 335px;
+    height: 214px;
+
+    .title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.04em;
+
+        text-align: left;
+        padding: 70px;
+    }
+}

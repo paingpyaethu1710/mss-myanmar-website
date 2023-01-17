@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Saira&display=swap');
 
 :root {
-  --font-base: 'Poppins', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
   --font-saira: 'Saira', sans-serif;
 
-  --nav-gradient: linear-gradient(180deg, #060A32 0%, #1A5D9E 80%);
-  --primary-color: #edf2f8;
+  --nav-gradient: linear-gradient(180deg, #060A32 0%, #1A5D9E 100%);
+  --about-gradient:linear-gradient(86.94deg, #13447E 11.62%, #091B47 65.83%);
+  --primary-color: #F3F1F1;
   --secondary-color: #FFE159;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
+  --secondary-light-color: #FFEB8F;
+  --services-color: #030F24;
+  --mission-card-color: #F6F6F6;
+  --btn-text-color: #113970;
+  --black-100-color: #2B2B2B;
   --white-color: #ffffff;
 }
 
@@ -19,9 +21,4 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-}
-
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
 }

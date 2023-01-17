@@ -1,0 +1,47 @@
+.app__servicecard {
+    width:360px;
+    height:360px;
+    border-radius:60px;
+    background:#030f24;
+    box-shadow: -4px -4px 10px rgba(27, 101, 166, 0.7), 4px 4px 10px rgba(0, 0, 0, 0.7);
+
+    padding: 3rem;
+
+    position: relative;
+
+    .service-num {
+        position: absolute;
+
+        background: #ffd928;
+        color: var(--white-color);
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: 500;
+        font-size: 48px;
+        letter-spacing: 0.05em;
+        border-radius: 100px;
+
+        top: -50px;
+        left: -21px;
+    }
+}
+
+.app__servicecard-content {
+    text-align: center;
+
+    img {
+        margin-bottom: 16px;
+    }
+    .content {
+        color: var(--white-color);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.04em;
+    }
+    .title-2 {
+        color: var(--secondary-light-color);
+    }
+}
