@@ -1,5 +1,28 @@
 import { images } from "../themes";
 
+export const navItem = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "about us",
+    title: "About us",
+  },
+  {
+    id: "mission & vision",
+    title: "Mission & Vision",
+  },
+  {
+    id: "our services",
+    title: "Our Services",
+  },
+  {
+    id: "contact us",
+    title: "Contact Us",
+  },
+];
+
 export const mission = [
   {
     id: "mission-1",

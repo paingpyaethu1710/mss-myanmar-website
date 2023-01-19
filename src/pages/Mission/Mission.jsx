@@ -6,7 +6,7 @@ import "./Mission.scss";
 
 const Mission = () => {
   return (
-    <div className="app__mission">
+    <div id="mission & vision" className="app__mission">
       <div className="app__mission-title">
         <p>Our Mission & Vision</p>
         <h3>WHY MSS MYANMAR?</h3>

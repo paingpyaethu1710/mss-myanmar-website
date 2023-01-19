@@ -4,7 +4,7 @@ import { images } from "../../themes";
 import "./Contact.scss";
 const Contact = () => {
   return (
-    <div className="app__contact">
+    <div id="contact us" className="app__contact">
       <p className="title">Contact Us</p>
       <div className="app__contact-content">
         <img src={images.contactImg} alt="contact.png" />

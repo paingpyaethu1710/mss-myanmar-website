@@ -5,7 +5,7 @@ import { services } from "../../constants";
 import "./Services.scss";
 const Services = () => {
   return (
-    <div className="app__service">
+    <div id="our services" className="app__service">
       <div className="app__service-title">
         <p>Our Services</p>
         <h3>We offer more than solutions.</h3>

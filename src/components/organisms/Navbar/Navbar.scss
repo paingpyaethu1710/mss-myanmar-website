@@ -7,7 +7,10 @@
 
   padding: 0.5rem 3rem 0.5rem 6rem;
 
-  background: var(--nav-gradient)
+  background: var(--nav-gradient);
+
+  position: fixed;
+  z-index: 2;
 }
 
 .app__navbar-logo {
@@ -27,17 +30,20 @@
 
   li {
     margin: 0 1rem;
+  }
 
-    a {
-      color: var(--white-color);
-      text-decoration: none;
-      text-transform: uppercase;
+  .nav-item {
+    color: var(--white-color);
+    text-transform: uppercase;
 
-      transition: all 0.3s ease-in-out;
-  
-      &:hover {
-        color: var(--secondary-color);
-      }
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--secondary-color);
     }
+  }
+
+  .active-color {
+    color: var(--secondary-color) !important;
   }
 }
