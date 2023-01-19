@@ -8,7 +8,7 @@ import serviceImg_2 from "../assets/service-img/service_img-2.svg";
 import serviceImg_3 from "../assets/service-img/service_img-3.svg";
 import serviceImg_4 from "../assets/service-img/service_img-4.svg";
 import serviceImg_5 from "../assets/service-img/service_img-5.svg";
-import ongo from "../assets/client-img/client_img-1.svg";
+import ongo from "../assets/client-img/client_img-1.png";
 import telemedic from "../assets/client-img/client_img-2.svg";
 import contactImg from "../assets/contact-img.png";
 
